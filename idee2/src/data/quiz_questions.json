@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Quel est le nom du renne au nez rouge ?",
+        "options": [
+            "Dasher",
+            "Rudolph",
+            "Comet",
+            "Blitzen"
+        ],
+        "answer": "Rudolph"
+    },
+    {
+        "question": "Dans quel pays la tradition du sapin de Noël a-t-elle commencé ?",
+        "options": [
+            "France",
+            "Allemagne",
+            "États-Unis",
+            "Norvège"
+        ],
+        "answer": "Allemagne"
+    },
+    {
+        "question": "Quelle friandise laisse-t-on souvent au Père Noël ?",
+        "options": [
+            "Des carottes",
+            "Du fromage",
+            "Des biscuits",
+            "De la pizza"
+        ],
+        "answer": "Des biscuits"
+    },
+    {
+        "question": "Comment s'appelle le bonhomme de neige qui prend vie ?",
+        "options": [
+            "Olaf",
+            "Frosty",
+            "Snowy",
+            "Jack"
+        ],
+        "answer": "Frosty"
+    },
+    {
+        "question": "Quelle plante s'embrasse-t-on dessous à Noël ?",
+        "options": [
+            "Le houx",
+            "Le gui",
+            "Le sapin",
+            "Le lierre"
+        ],
+        "answer": "Le gui"
+    },
+    {
+        "question": "Combien de jours y a-t-il dans un calendrier de l'Avent ?",
+        "options": [
+            "12",
+            "24",
+            "25",
+            "31"
+        ],
+        "answer": "24"
+    },
+    {
+        "question": "Quel ballet célèbre se déroule à Noël ?",
+        "options": [
+            "Le Lac des Cygnes",
+            "Casse-Noisette",
+            "La Belle au Bois Dormant",
+            "Roméo et Juliette"
+        ],
+        "answer": "Casse-Noisette"
+    },
+    {
+        "question": "Qui aide le Père Noël à fabriquer les jouets ?",
+        "options": [
+            "Les rennes",
+            "Les lutins",
+            "Les fées",
+            "Les bonhommes de neige"
+        ],
+        "answer": "Les lutins"
+    },
+    {
+        "question": "Quelle couleur est associée au Grinch ?",
+        "options": [
+            "Rouge",
+            "Vert",
+            "Bleu",
+            "Jaune"
+        ],
+        "answer": "Vert"
+    },
+    {
+        "question": "Que trouve-t-on au sommet du sapin ?",
+        "options": [
+            "Une étoile",
+            "Une boule",
+            "Une chaussette",
+            "Un cadeau"
+        ],
+        "answer": "Une étoile"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "id": "memory",
+        "title": "Memory de Noël",
+        "description": "Retrouvez les paires de cartes festives !",
+        "icon": "🃏",
+        "path": "/memory",
+        "color": "var(--color-primary)"
+    },
+    {
+        "id": "puzzle",
+        "title": "Puzzle de Noël",
+        "description": "Reconstituez l'image magique.",
+        "icon": "🧩",
+        "path": "/puzzle",
+        "color": "var(--color-secondary)"
+    },
+    {
+        "id": "quiz",
+        "title": "Quiz de Noël",
+        "description": "Testez vos connaissances sur Noël.",
+        "icon": "❓",
+        "path": "/quiz",
+        "color": "var(--color-accent)"
+    },
+    {
+        "id": "catch",
+        "title": "Attrape Cadeaux",
+        "description": "Aidez le Père Noël à attraper les cadeaux !",
+        "icon": "🎁",
+        "path": "/catch",
+        "color": "#3B82F6"
+    }
+]

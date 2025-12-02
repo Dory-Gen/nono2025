@@ -1,0 +1,60 @@
+@keyframes snowfall {
+    0% {
+        transform: translateY(-10vh) translateX(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(100vh) translateX(20px);
+        opacity: 0;
+    }
+}
+
+.snowflake {
+    position: fixed;
+    top: -10px;
+    color: #FFF;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    text-shadow: 0 0 5px #000;
+    user-select: none;
+    z-index: 9999;
+    pointer-events: none;
+    animation-name: snowfall;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+/* Randomize snowflakes in JS or use nth-child here if fixed count */
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.animate-pop {
+    animation: pop 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
