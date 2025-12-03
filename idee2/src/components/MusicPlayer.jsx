@@ -74,7 +74,7 @@ const MusicPlayer = () => {
     };
 
     return (
-        <div style={{
+        <div className="music-player" style={{
             backgroundColor: 'rgba(255, 255, 255, 0.95)',
             padding: '16px 24px',
             borderRadius: '50px',
@@ -94,7 +94,7 @@ const MusicPlayer = () => {
                 preload="metadata"
             />
 
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <div className="music-controls" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <button
                     onClick={prevTrack}
                     style={{
@@ -113,7 +113,7 @@ const MusicPlayer = () => {
                     ⏮️
                 </button>
 
-                <button onClick={togglePlay} style={{
+                <button className="music-play-btn" onClick={togglePlay} style={{
                     width: '50px',
                     height: '50px',
                     borderRadius: '50%',
@@ -160,14 +160,14 @@ const MusicPlayer = () => {
                 </button>
             </div>
 
-            <div style={{
+            <div className="music-player-separator" style={{
                 height: '40px',
                 width: '2px',
                 backgroundColor: 'var(--color-primary)',
                 opacity: 0.3
             }} />
 
-            <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <div className="music-volume" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <button
                     onClick={toggleMute}
                     style={{
@@ -200,14 +200,14 @@ const MusicPlayer = () => {
                 />
             </div>
 
-            <div style={{
+            <div className="music-player-separator" style={{
                 height: '40px',
                 width: '2px',
                 backgroundColor: 'var(--color-primary)',
                 opacity: 0.3
             }} />
 
-            <div style={{
+            <div className="music-title" style={{
                 fontSize: '0.95rem',
                 minWidth: '150px',
                 maxWidth: '200px',

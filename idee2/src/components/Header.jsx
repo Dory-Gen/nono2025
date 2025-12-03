@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <header style={{
+        <header className="header" style={{
             backgroundColor: 'var(--color-primary)',
             color: 'var(--color-surface)',
             padding: 'var(--spacing-md) var(--spacing-xl)',
@@ -20,7 +20,7 @@ const Header = () => {
                 <h1 style={{ fontSize: '1.5rem', margin: 0 }}>Noël Magique</h1>
             </Link>
             <nav>
-                <ul style={{ display: 'flex', gap: 'var(--spacing-lg)', listStyle: 'none', margin: 0, padding: 0 }}>
+                <ul className="nav-list" style={{ display: 'flex', gap: 'var(--spacing-lg)', listStyle: 'none', margin: 0, padding: 0 }}>
                     <li><Link to="/" style={{ fontWeight: 600 }}>Accueil</Link></li>
                     <li><Link to="/#games" style={{ fontWeight: 600 }}>Jeux</Link></li>
                 </ul>

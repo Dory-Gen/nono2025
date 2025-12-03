@@ -7,10 +7,10 @@ const Home = () => {
     return (
         <div style={{ textAlign: 'center' }}>
             <section style={{ marginBottom: 'var(--spacing-2xl)', padding: 'var(--spacing-xl) 0', position: 'relative' }}>
-                <h1 style={{ fontSize: '3rem', color: 'var(--color-primary)', marginBottom: 'var(--spacing-md)' }}>
+                <h1 className="hero-title" style={{ fontSize: '3rem', color: 'var(--color-primary)', marginBottom: 'var(--spacing-md)' }}>
                     Bienvenue sur Noël Magique ! 🎅
                 </h1>
-                <p style={{ fontSize: '1.2rem', maxWidth: '600px', margin: '0 auto', color: 'var(--color-text-light)', marginBottom: 'var(--spacing-lg)' }}>
+                <p className="hero-text" style={{ fontSize: '1.2rem', maxWidth: '600px', margin: '0 auto', color: 'var(--color-text-light)', marginBottom: 'var(--spacing-lg)' }}>
                     Plongez dans l'ambiance des fêtes avec nos mini-jeux amusants pour toute la famille.
                     C'est gratuit et sans inscription !
                 </p>
@@ -25,7 +25,7 @@ const Home = () => {
                 <h2 style={{ fontSize: '2rem', marginBottom: 'var(--spacing-xl)', color: 'var(--color-secondary)' }}>
                     Nos Jeux
                 </h2>
-                <div style={{
+                <div className="games-grid" style={{
                     display: 'grid',
                     gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
                     gap: 'var(--spacing-xl)',
